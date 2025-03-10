@@ -1,0 +1,18 @@
+{
+  "name": "boostify-app",
+  "version": "1.0.0",
+  "description": "Live song requests, tipping, and boosting for DJs & performers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "latest",
+    "@stripe/react-stripe-js": "^1.7.0",
+    "@stripe/stripe-js": "^1.15.0"
+  }
+}
+
