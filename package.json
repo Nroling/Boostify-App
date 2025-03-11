@@ -8,11 +8,24 @@
     "build": "react-scripts build"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.7.0",
+    "@stripe/stripe-js": "^1.15.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "latest",
-    "@stripe/react-stripe-js": "^1.7.0",
-    "@stripe/stripe-js": "^1.15.0"
+    "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
-
